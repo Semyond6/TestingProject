@@ -11,7 +11,7 @@ docker-compose up -d
 python -m venv venv
 source venv/bin/activate  # Linux/Mac
 # venv\Scripts\activate  # Windows
-4.1. Для тестирования на Windows добавить в requirements.txt psycopg2==2.9.12
+# Для тестирования на Windows добавить в requirements.txt psycopg2==2.9.12
 pip install -r requirements.txt
 python -m app.init_db
 python run.py
